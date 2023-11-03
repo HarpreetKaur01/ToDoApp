@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+  // height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+  justify-content: center; /* Center horizontally */
+   /*align-items: center;*/ /* Center vertically */
+   background-color: #dbd8d0;
+}
+.container
+{
+	
+	//display: flex;
+   // justify-content: center;
+   // flex-direction: column;
+   background-color: white;
+
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding: 30px 50px ;
+   border-radius: 5px;
+}
+#todo{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#add-task{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #68bcd4;
+	color: white;
+}
+ul{
+	//text-align: left;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul li {
+	//list-style-type: none;
+	margin: 5px;
+
+//border: 2px black solid;
+border-radius: 5px;
+padding: 8px;
+background-color: #e0ddd5
+}
+
+ul li button
+{
+float: right;
+background-color: #db2e2e;
+ padding:2px;
+ color: white;
+ border : none;
+ padding: 3px;
+ margin-right: 5px;
+ border-radius:3px;
+}
+
+.whenChecked {
+            text-decoration: line-through;
+            color: red;
+            background-color: yellow;
+        }
+        
+
+       /* checkbox:checked + label {
+  text-decoration: line-through;
+}
+*/
+ul li label {
+	color: black;
+	font-size: 16px;
+}
+
+.input-data{
+
+	margin-top: 10px;
+	//	margin-bottom: 5px;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div class="container">
+
+		<h1 id ="heading" tabindex="-1">To-Do List</h1>
+		<form action="index.html" method="POST" id="to-do-form">
+			<label for="todo" >Add a new task to your list (required)</label>
+
+			<div class="input-data">
+				<input type="text" id="todo" required>
+
+
+				<input type="submit" value="Add" id="add-task">
+
+			</div>
+
+
+			<div>
+				Example : Do laundry
+			</div>
+
+			<!-- <div>
+				<input type="checkbox" id="hey">
+				<label for="hey">Hey</label>
+			</div> -->
+		</form>
+		<ul id="list">
+
+		</ul>
+		<div role = "status" aria-live = "polite"  id="sc-feedback">
+<!--  -->
+		</div>
+
+
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
